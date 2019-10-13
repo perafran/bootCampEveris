@@ -2,5 +2,5 @@ package interfaces;
 
 public interface Prueba {
 
-	public String imprimir();
+	public void imprimir();
 }

@@ -6,10 +6,18 @@ public class PruebaImpl implements Prueba {
 	
 	String cadena;
 
+	
+	
+	public PruebaImpl(String cadena) {
+		this.cadena = cadena;
+	}
+
+
+
 	@Override
-	public String imprimir() {
+	public void imprimir() {
 		// TODO Auto-generated method stub
-		return null;
+		System.out.println("La cadena es "+ cadena);
 	}
 
 }
